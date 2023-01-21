@@ -1,0 +1,9 @@
+
+# Python virtual environment
+.venv
+
+# IDE Specific
+.vscode
+.idea
+.DS_store
+

@@ -1,0 +1,1 @@
+rticonnextdds-connector==1.2.2

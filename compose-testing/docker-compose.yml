@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  data_reader_container:
+    build: ./data_reader_container
+    volumes:
+      - ./config:/usr/src/app/config
+  data_reader_container_2:
+    build: ./data_reader_container
+    volumes:
+      - ./config:/usr/src/app/config
+  data_writer_container:
+    build: ./data_writer_container
+    volumes:
+      - ./config:/usr/src/app/config
